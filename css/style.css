@@ -1,0 +1,131 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+}
+
+body {
+  font-family: "Lato";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: normal;
+  color: #000000;
+}
+
+:focus {
+  outline: 0;
+}
+
+.wrapper {
+  max-width: 1060px;
+  margin: 0 auto;
+}
+
+/* header styles */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.header-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-top: 56px;
+}
+.header-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.header-list-item {
+  margin-right: 82px;
+}
+.header-list-item:last-child {
+  margin-right: 0;
+}
+.header-list-link {
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.header-list-link:hover,
+.header-list-link:focus,
+.header-list-link:active {
+  opacity: 0.75;
+}
+
+/* intro styles */
+
+.intro {
+  min-height: 100vh;
+  background: url(/img/Hero.png) no-repeat center;
+  background-size: cover;
+  padding-top: 263px;
+}
+.intro-title {
+  max-width: 619px;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 60px;
+  color: #ffffff;
+  margin-bottom: 22px;
+}
+.intro-subtitle {
+  max-width: 546px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 59px;
+}
+.search-form-wrap {
+  border: none;
+  padding: 0;
+}
+.search-form-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+.search-form-field {
+  width: 297px;
+  background-color: transparent;
+  background: url(/img/Oval.svg) no-repeat left 6px;
+  background-size: 20px;
+  border: 0;
+  border-bottom: 2px solid #bfc0c5;
+  padding-bottom: 22px;
+  margin-right: 60px;
+  padding-left: 43px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+}
+.search-form-field::placeholder {
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+}
+.search-form-submit {
+  padding: 15px 39px;
+  background-color: #1b7dff;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 24px;
+  color: #ffffff;
+  cursor: pointer;
+  border: 0;
+}
+.search-form-submit:hover,
+.search-form-submit:focus,
+.search-form-submit:active {
+  background-color: #144f9d;
+}
