@@ -312,7 +312,7 @@ img {
 .benefits-card-link:hover,
 .benefits-card-link:focus {
   color: #093672;
-  background: url(/img/Shape.svg) no-repeat right center;
+  background: url(../img/Shape.svg) no-repeat right center;
 }
 
 /* places styles */
