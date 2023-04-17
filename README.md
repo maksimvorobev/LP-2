@@ -1,2 +1,2 @@
 # LP-2
-My second landing page
+Landing page about Japan
